@@ -2,10 +2,14 @@
 
 Kad veiktu "npm install"
 
-Jeigu neveikia Tailwind/CSS rasyk "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+Jeigu neveikia Tailwind/CSS 
+"npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
 
-Kad paleisti "npm run dev"
+Kad paleisti 
+"npm run dev"
 
+Kad paleisti mongoDB
+"node --env-file=config.env server"
 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
