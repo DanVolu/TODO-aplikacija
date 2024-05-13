@@ -10,7 +10,11 @@ export default {
       'todo': '#C9ADA1'
     },
 
-    extend: {},
+    extend: {
+      fontFamily:{
+        'primary': ['Ubuntu']
+      }
+    },
   },
   plugins: [],
 }
