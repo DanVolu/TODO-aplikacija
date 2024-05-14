@@ -1,18 +1,15 @@
 // import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Login from './components/Login.jsx'
-import Todo from './components/Todo.jsx'
+// import Login from './components/Login.jsx'
+//import Todo from './components/Todo.jsx'
 import Register from './components/Register.jsx'
-
+// import Routes from './Routes.jsx'
 function App() {
  
 
   return (
     <>
-    {/* <Register></Register>
+    <Register></Register>
 
-
-      <Login></Login> */}
-      <Todo></Todo>
       {/* <BrowserRouter>
         <Routes>
           <Route></Route>
