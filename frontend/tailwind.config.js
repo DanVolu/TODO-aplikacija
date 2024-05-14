@@ -7,7 +7,8 @@ export default {
   theme: {
     colors:{
       'mainBg': '#EAE0CC',
-      'todo': '#C9ADA1'
+      'todo': '#C9ADA1',
+      'red': '#FF0000',
     },
 
     extend: {

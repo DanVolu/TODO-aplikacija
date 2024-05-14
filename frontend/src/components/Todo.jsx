@@ -1,38 +1,26 @@
-import { useState } from 'react';
+
+
+import Task from "./Task";
 
 function Todo() {
-  const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const toggleDropdown = () => {
-    setDropdownOpen(!dropdownOpen);
-  };
 
   return (
     <>
-    <div>
-    <div className="w-[60%] min-h-[31rem] mx-auto mt-52 rounded-lg shadow-lg bg-todo">
+    <div className="w-[100%]">
+    <div className="w-[40%] min-w-[31rem] min-h-[31rem] mx-auto mt-52 rounded-lg shadow-lg bg-todo">
+     <div className="p-4">
+      <p className="font-semibold  text-4xl text-center">TODO LISTAS</p>
       
-      <p className="font-semibold text-4xl text-center">TODO LISTAS</p>
-      
-        <div id="dropdownBtn" className="absolute bg-mainBg h-[4rem] w-[4rem] border">
-          {dropdownOpen && (
-            <div id="dropdown" className="absolute bg-mainBg shadow-md p-2 top-20 right-0 z-10">
-              <button className="block w-full text-left hover:bg-gray-100 px-4 py-2 border">
-                Download task list
-              </button>
-              <button className="block w-full text-left hover:bg-gray-100 px-4 py-2 border">
-                Delete account
-              </button>
-            </div>
-          )}
-          <button onClick={toggleDropdown} type="button" className="justify-items-end text-white bg-mainBg shadow-md font-medium rounded-lg text-md h-[6rem] w-[6rem] text-center">
-            Dropdown
-          </button>
-      </div>
-      <button type="addTask" className="ml-12 text-white bg-mainBg font-medium rounded-lg text-lg w-auto px-10 py-2.5 text-center">
+     </div> 
+       
+      <button type="addTask" className="ml-12 border-2  bg-mainBg font-medium rounded-lg text-lg w-auto px-10 py-2.5 text-center">
         Add Task
       </button>
+      <Task></Task>
+
     </div>
+
     </div>
     </>
   );
