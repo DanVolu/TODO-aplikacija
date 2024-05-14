@@ -8,7 +8,9 @@ function Todo() {
   };
 
   return (
-    <div className="w-[48rem] h-[61rem] mx-auto mt-12 rounded-lg shadow-lg bg-todo">
+    <>
+    <div>
+    <div className="w-[60%] min-h-[31rem] mx-auto mt-52 rounded-lg shadow-lg bg-todo">
       
       <p className="font-semibold text-4xl text-center">TODO LISTAS</p>
       
@@ -31,6 +33,8 @@ function Todo() {
         Add Task
       </button>
     </div>
+    </div>
+    </>
   );
 }
 

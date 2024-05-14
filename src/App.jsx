@@ -8,10 +8,10 @@ function App() {
 
   return (
     <>
-    <Register></Register>
+    {/* <Register></Register>
 
 
-      <Login></Login>
+      <Login></Login> */}
       <Todo></Todo>
       {/* <BrowserRouter>
         <Routes>
